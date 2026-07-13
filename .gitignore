@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output Model Weights / Vocab (large binary files)
+*.pkl
+*.h5
+*.joblib
+
+# Datasets & Temp Files
+dataset/
+seg_train/
+seg_test/
+*.zip
+*.png
+*.jpg
+*.jpeg
+
+# Streamlit config/cache
+.streamlit/
+st_cache/
+
+# IDE / Editor Files
+.vscode/
+.idea/
+.DS_Store
